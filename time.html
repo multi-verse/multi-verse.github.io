@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>It's time - Multiverse.</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="m3.png">
+    <script type="text/javascript">
+function GetClock(){
+var d=new Date();
+var nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getYear();
+if(nyear<1000) nyear+=1900;
+var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+if(nmin<=9) nmin="0"+nmin
+if(nsec<=9) nsec="0"+nsec;
+
+document.getElementById('clockbox').innerHTML=""+ndate+"/"+(nmonth+1)+"/"+nyear+" "+nhour+":"+nmin+":"+nsec+"";
+}
+
+window.onload=function(){
+GetClock();
+setInterval(GetClock,1000);
+}
+</script>
+    </head>
+    <body>
+      <br><br><br>
+      <p><img src=m1.png alt="" style="width:128px;height:128px;"></p>
+<p><a href="https://multiverse.neocities.org/mistake.html"><m1 id="clockbox"></m1></a></p>
+<p>It's <a href="https://multiverse.neocities.org/">home</a>, as <a href="https://multiverse.neocities.org/wellness.html">well</a>.</p>
+  </body>
+</html>
