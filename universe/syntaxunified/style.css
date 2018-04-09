@@ -1,0 +1,110 @@
+
+body {
+  background-color: #272E37;
+}
+p {
+  color: #2873DE;
+  font-family: "Calibri";
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 100%;
+}
+
+hide {
+  color: #2873DE;
+}
+
+cb {
+  font-family: "Consolas";
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+/* unvisited link */
+a:link {
+    color: #2873DE;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #2873DE;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #41BDD9;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #2873DE;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+m1 {
+  color: #2873DE;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  font-size: 2.0em;
+  line-height: 100%;
+  }
+  m2 {
+  color: #2873DE;
+  font-family: "Trebuchet MS";
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 100%;
+  }
+  mc {
+  color: #2873DE;
+  font-family: "Courier New";
+  text-align: center;
+  font-size: 1em;
+  }
+h2 {
+  color: #2873DE;
+  font-family: Arial;
+  text-align: center;
+  font-size:14;
+  }
+h3 {
+  color: #2873DE;
+  font-family: Arial;
+  text-align: center;
+  font-size:13;
+  }
+
+n {
+    font-style: normal;
+}
+
+i {
+    font-style: italic;
+}
+
+o {
+    font-style: oblique;
+}

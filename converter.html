@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="30"> -->
+    <title>Multiverse.</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" href="m3.png">
+    <meta name="author" content="Syntax">
+    <meta name="description" content="This is Multiverse.">
+    <script type="text/javascript">
+    
+    function convertBinary() {
+    var output = document.getElementById("outputBinary");
+    var input = document.getElementById("inputBinary").value;
+    output.value = "";
+    for (i=0; i < input.length; i++) {var e=input[i].charCodeAt(0);var s = "";
+    do{
+        var a =e%2;
+        e=(e-a)/2;
+        s=a+s;
+        }while(e!=0);
+        while(s.length<8){s="0"+s;}
+        output.value+=s;
+    }
+
+}
+    </script>
+  </head>
+  <body>
+    <br><br><br>
+    
+    <p><img src=m1.png alt="" style="width:128px;height:128px;"></p>
+    <p><m1>converter.</m1></p>
+    <p>
+    <input type="text" onkeyup="convertBinary()" id="inputBinary" class="inputBinary" placeholder="Enter Text"/>
+    <input type="text" id="outputBinary" class="outputBinary" readonly/>
+    </p>
+    <p>Get me back to <a href="https://multiverse.neocities.org/">home</a>!</p>
+    
+  </body>
+</html>
