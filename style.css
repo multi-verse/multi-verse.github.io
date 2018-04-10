@@ -113,10 +113,10 @@ o {
 }
 
 @font-face {
-  font-family: yipher;
+  font-family: 'yipher';
   src: url(https://multi-verse.github.io/harry/challenge/Yipher-Regular.ttf);
 }
 
 .yipher {
-  font-family: yipher;
+  font-family: 'yipher', inherit;
 }
